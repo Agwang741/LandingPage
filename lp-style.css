@@ -1,0 +1,94 @@
+/* lp-style.css 09-07-2020 */
+
+header{
+    display:block;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+}
+
+#header-img{
+    float: left;
+    margin: 10px;
+}
+
+#nav-bar{
+    float:right;
+}
+
+/* CSS from top level code */
+.btd-padding-lp{padding-top:288px!important;padding-bottom:64px!important}
+.btd-content{margin-left:auto;margin-right:auto}
+
+/* Navigation links */
+.nav-link{
+    text-decoration: none;
+    color: #663399;
+    margin: 10px;
+}
+
+/* Discount coupon section  */
+#discounts{
+    background: #E6E6FA;
+}
+
+/* Baby hat store section  */
+#store{
+    background: #D8BFD8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pricing section  */
+#pricing{
+    background: #DDA0DD;
+}
+
+/* Store Features section  */
+#features{
+    background: #EE82EE;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container > div {
+  width: 200px;
+  margin: 10px;
+}
+/* Center Website text */
+.responsive{
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 800px;
+  height: auto;
+}
+@media (max-width:799px){
+    h1{font-size:24px}
+    h2{font-size:20px}
+    h3{font-size:18px}
+    h4{font-size:16px}
+    h5{font-size:16px}
+    h6{font-size:16px}
+    p{font-size:16px}
+    .btd-hide-small{display:none!important}
+}
+
+/* Responsive image */
+#video{
+    max-width: 100%;
+}
+
+#form{
+    text-align: center;
+}
+
+#submit{
+    border-radius: 25px;
+    background-color: #4B0082;
+    color: #ffffff;
+}
